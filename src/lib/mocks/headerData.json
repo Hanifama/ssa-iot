@@ -1,0 +1,55 @@
+{
+    "header": {
+        "title": "Platform tempat Kecerdasan bertemu dengan perangkat pintar",
+        "description": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Provident consequuntur aperiam, ut veritatis voluptas quidem!",
+        "buttons": [
+            {
+                "label": "Explore more",
+                "icon": "RiArrowRightUpLine",
+                "className": "bg-accent text-dark py-2 px-4 text-lg"
+            },
+            {
+                "label": "Play video",
+                "icon": "RiPlayCircleFill",
+                "className": "border border-dark py-2 px-4 text-lg"
+            }
+        ],
+        "headerImage": {
+            "src": "/assets/header.jpg",
+            "alt": "header"
+        }
+    },
+    "navigation": {
+        "logo": {
+            "text": "Produk",
+            "accent": "IoT",
+            "link": "/"
+        },
+        "menuItems": [
+            {
+                "label": "Home",
+                "href": "#home"
+            },
+            {
+                "label": "Layanan",
+                "href": "#service"
+            },
+            {
+                "label": "Produk",
+                "href": "#product"
+            },
+            {
+                "label": "Cara Order?",
+                "href": "#stepsorder"
+            },
+            {
+                "label": "QnA",
+                "href": "#QnA"
+            }
+        ],
+        "loginButton": {
+            "label": "Login",
+            "icon": "RiArrowRightUpLine"
+        }
+    }
+}

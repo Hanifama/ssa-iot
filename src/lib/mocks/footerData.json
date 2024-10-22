@@ -1,0 +1,60 @@
+{
+    "contactInfo": [
+        {
+            "type": "phone",
+            "text": "+62 12345678"
+        },
+        {
+            "type": "address",
+            "text": "Bandung, Jawa Barat"
+        },
+        {
+            "type": "email",
+            "text": "info@IoT.id"
+        }
+    ],
+    "menuLinks": [
+        {
+            "text": "Home",
+            "href": "#"
+        },
+        {
+            "text": "Layanan",
+            "href": "#"
+        },
+        {
+            "text": "Produk",
+            "href": "#"
+        },
+        {
+            "text": "Cara Order?",
+            "href": "#"
+        },
+        {
+            "text": "QnA",
+            "href": "#"
+        }
+    ],
+    "socialLinks": [
+        {
+            "platform": "facebook",
+            "href": "#",
+            "ariaLabel": "Facebook"
+        },
+        {
+            "platform": "webhook",
+            "href": "#",
+            "ariaLabel": "Webhook"
+        },
+        {
+            "platform": "instagram",
+            "href": "#",
+            "ariaLabel": "Instagram"
+        },
+        {
+            "platform": "youtube",
+            "href": "#",
+            "ariaLabel": "YouTube"
+        }
+    ]
+}

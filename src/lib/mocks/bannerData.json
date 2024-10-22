@@ -1,0 +1,38 @@
+[
+    {
+        "id": 1,
+        "imgSrc": "/assets/banner.png",
+        "alt": "Center of Gravity",
+        "title": "Center of Gravity"
+    },
+    {
+        "id": 2,
+        "imgSrc": "/assets/IoT-Enviromental-Sensor.png",
+        "alt": "Environmental Sensor",
+        "title": "Environmental Sensor"
+    },
+    {
+        "id": 3,
+        "imgSrc": "/assets/Iot-Smart-Card-Saga.png",
+        "alt": "Smartcard Saga",
+        "title": "Smartcard Saga"
+    },
+    {
+        "id": 4,
+        "imgSrc": "/assets/IoT-Smart-Watering.jpeg",
+        "alt": "Smart Watering",
+        "title": "Smart Watering"
+    },
+    {
+        "id": 5,
+        "imgSrc": "/assets/IoT-HomeAuto.jpeg",
+        "alt": "Home Automation",
+        "title": "Home Automation"
+    },
+    {
+        "id": 6,
+        "imgSrc": "/assets/IoT-Robotics-Flex-Sensor.png",
+        "alt": "Robotic Flex Sensor",
+        "title": "Robotic Flex Sensor"
+    }
+]

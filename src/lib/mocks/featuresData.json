@@ -1,0 +1,31 @@
+{
+  "featuresContent": {
+    "content": {
+      "subheader": "FITUR KAMI",
+      "header": "Apa yang Tersedia?",
+      "description": "Kami menawarkan solusi IoT inovatif yang memudahkan Anda untuk menghubungkan dan mengelola perangkat Anda dengan efisiensi maksimal. Temukan bagaimana teknologi kami dapat mengubah cara Anda berinteraksi dengan dunia.",
+      "button": {
+        "label": "Jelajahi lebih lanjut",
+        "className": "btn bg-green-200 text-gray-800 px-4 py-2 rounded-lg shadow-md hover:bg-green-300 transition duration-300"
+      }
+    },
+    "featuresList": [
+      {
+        "title": "Konektivitas Perangkat",
+        "description": "Sambungkan dan kelola berbagai perangkat IoT dengan lancar, memberikan Anda kontrol penuh di ujung jari."
+      },
+      {
+        "title": "IWK (IoT Workshop Kit)",
+        "description": "IoT dengan kit workshop kami yang dirancang khusus untuk eksperimen dan pengembangan perangkat."
+      },
+      {
+        "title": "Alat Peraga",
+        "description": "Kami menyediakan alat peraga yang mendukung pendidikan dan penerapan IoT dalam kehidupan sehari-hari."
+      },
+      {
+        "title": "Implementasi",
+        "description": "Solusi kami dapat disesuaikan untuk memenuhi kebutuhan spesifik Anda, menjadikan proses implementasi mudah dan efektif."
+      }
+    ]
+  }
+}

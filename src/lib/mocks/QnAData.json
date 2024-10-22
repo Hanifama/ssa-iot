@@ -1,0 +1,26 @@
+[
+    {
+        "question": "Apa itu IoT?",
+        "answer": "IoT (Internet of Things) adalah konsep di mana berbagai perangkat terhubung ke internet dan dapat saling berkomunikasi."
+    },
+    {
+        "question": "Bagaimana cara kerja solusi IoT?",
+        "answer": "Solusi IoT bekerja dengan mengumpulkan data dari perangkat, mengirimkannya ke cloud untuk analisis, dan menyediakan wawasan yang dapat ditindaklanjuti."
+    },
+    {
+        "question": "Apa manfaat menggunakan solusi IoT?",
+        "answer": "Manfaatnya termasuk efisiensi operasional, penghematan biaya, dan peningkatan pengambilan keputusan berdasarkan data."
+    },
+    {
+        "question": "Apa saja perangkat yang digunakan dalam IoT?",
+        "answer": "Berbagai perangkat seperti sensor, kamera, dan perangkat pintar digunakan dalam IoT untuk mengumpulkan dan mengirimkan data."
+    },
+    {
+        "question": "Apa tantangan dalam implementasi IoT?",
+        "answer": "Tantangan meliputi keamanan data, interoperabilitas antar perangkat, dan pengelolaan infrastruktur yang kompleks."
+    },
+    {
+        "question": "Bagaimana IoT dapat membantu bisnis?",
+        "answer": "IoT dapat membantu bisnis dalam meningkatkan efisiensi, mengurangi biaya, dan meningkatkan pengalaman pelanggan dengan data real-time."
+    }
+]

@@ -1,0 +1,36 @@
+{
+  "title": "Daftar Sekarang",
+  "description": "Ikuti langkah sederhana ini untuk melakukan pemesanan",
+  "steps": [
+    {
+      "number": 1,
+      "title": "Buat Akun",
+      "description": "Daftarkan diri Anda dengan mengisi informasi yang diperlukan untuk membuat akun."
+    },
+    {
+      "number": 2,
+      "title": "Pilih Perangkat Anda",
+      "description": "Pilih perangkat IoT yang sesuai dengan kebutuhan Anda dari katalog kami yang luas."
+    },
+    {
+      "number": 3,
+      "title": "Lakukan Pesanan Anda",
+      "description": "Personalisasi perangkat Anda dengan tambahan dan fitur yang memenuhi kebutuhan Anda."
+    },
+    {
+      "number": 4,
+      "title": "Selesaikan Pembelian Anda",
+      "description": "Isi detail Anda dan lanjutkan ke pembayaran untuk menyelesaikan pesanan."
+    },
+    {
+      "number": 5,
+      "title": "Dapatkan Dukungan Kapan Saja",
+      "description": "Hubungi tim dukungan kami untuk mendapatkan bantuan terkait perangkat dan pesanan Anda."
+    },
+    {
+      "number": 6,
+      "title": "Nikmati Pengalaman IoT Anda",
+      "description": "Siapkan perangkat Anda dan mulai menjelajahi kemungkinan tak terbatas dari IoT."
+    }
+  ]
+}
