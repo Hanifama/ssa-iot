@@ -51,7 +51,7 @@ const HeaderImage: React.FC = () => {
                 <Image
                     src={headerImage.src}
                     alt={headerImage.alt}
-                    layout="fill" 
+                    fill 
                     style={{ objectFit: 'cover' }} 
                     quality={75}
                 />
