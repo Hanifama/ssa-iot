@@ -44,7 +44,7 @@ const ActivateAccount: React.FC = () => {
           </div>
           <button
             type="submit"
-            className="w-full bg-blue-600 text-white p-3 rounded shadow hover:bg-blue-700 transition duration-200"
+            className="w-full bg-foreground text-white p-3 rounded shadow hover:bg-blue-700 transition duration-200"
           >
             Aktivasi Akun
           </button>

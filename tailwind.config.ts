@@ -10,16 +10,15 @@ const config: Config = {
     extend: {
       colors: {
         // Warna utama
-        primary: "#2D3748", // Elegant dark grey-blue
+        primary: "#2D3748", // dark grey-blue
         secondary: "#4A5568", // Soft medium grey
-        accent: "#D69E2E", // Rich gold for accents
+        accent: "#D69E2E", // Gold
 
         // Warna netral
-        background: "#F7FAFC", // Light grey-white background
-        foreground: "#1A202C", // Dark grey text
-        muted: "#A0AEC0", // Muted grey for secondary text
-
-        // Warna tambahan untuk kebutuhan spesifik
+        background: "#F7FAFC", // Light grey-white 
+        foreground: "#1A202C", // Dark grey 
+        muted: "#A0AEC0", // grey 
+        
         info: "#3182CE", // Soft blue for info
         success: "#38A169", // Calming green for success messages
         warning: "#ED8936", // Warm orange for warnings
