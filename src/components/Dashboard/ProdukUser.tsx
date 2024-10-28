@@ -60,7 +60,7 @@ const ProdukUser: React.FC = () => {
     };
 
     return (
-        <div className="bg-white p-6 rounded-lg shadow-md">
+        <div className="bg-white">
             <h3 className="text-xl font-semibold mb-4">Daftar Perangkat IoT dan Produk</h3>
 
             {/* Navbar Pilihan Tampilan */}

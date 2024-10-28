@@ -1,15 +1,11 @@
+"use client";
 import ProdukUser from "@/components/Dashboard/ProdukUser";
-import Sidebar from "@/components/Dashboard/Sidebar";
+import DashboardLayout from "@/layouts/Dashboard/Index";
 
-export default function ProdukPage() {
+export default function UserProdukPage() {
     return (
-        <div className="flex">
-            <div className="fixed top-0 left-0 w-64 h-full bg-gray-800 text-white hidden md:block">
-                <Sidebar />
-            </div>
-            <div className="flex-1 p-8 md:ml-64">
-                <ProdukUser />
-            </div>
-        </div>
-    )
+        <DashboardLayout>
+            <ProdukUser />
+        </DashboardLayout>
+    );
 }

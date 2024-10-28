@@ -21,10 +21,10 @@ const Register: React.FC<{ switchToLogin: () => void }> = ({ switchToLogin }) =>
       <div className="hidden lg:flex items-center justify-center w-1/2 h-full bg-blue-200">
         <div className="relative w-full h-full">
           <Image
-            src="/assets/header.jpg"
+            src="/assets/auth.png"
             alt="Header"
-            width={700}            
-            height={500}           
+            width={900}            
+            height={700}           
             className="rounded-lg object-cover w-full h-full"
           />
         </div>

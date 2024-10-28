@@ -2,7 +2,7 @@
 
 import { useRouter } from "next/navigation";
 import React, { useEffect, useState } from "react";
-import { RiDashboardLine, RiLogoutBoxLine, RiUser3Line, RiDeviceLine } from "react-icons/ri";
+import { RiDashboardLine, RiUser3Line, RiDeviceLine } from "react-icons/ri";
 
 const Sidebar: React.FC = () => {
   const router = useRouter();
@@ -22,7 +22,7 @@ const Sidebar: React.FC = () => {
 
   return (
     <div className="flex flex-col w-64 h-screen bg-white shadow-md">
-      <div className="flex items-center justify-center h-16 bg-blue-500 text-white">
+      <div className="flex items-center justify-center h-16 text-accent">
         <h1 className="text-2xl font-bold">Dashboard</h1>
       </div>
 
@@ -33,8 +33,8 @@ const Sidebar: React.FC = () => {
               <li>
                 <div
                   className={`flex items-center w-full p-2 text-gray-700 rounded-lg ${
-                    activePath === "/dashboard" ? "border-l-4 border-blue-500" : ""
-                  } hover:bg-blue-100`}
+                    activePath === "/dashboard" ? "border-l-4 border-accent" : ""
+                  } hover:bg-yellow-50`}
                   onClick={() => handleNavigation("/dashboard")}
                 >
                   <RiDashboardLine className="mr-2" />
@@ -44,8 +44,8 @@ const Sidebar: React.FC = () => {
               <li>
                 <div
                   className={`flex items-center w-full p-2 text-gray-700 rounded-lg ${
-                    activePath === "/dashboard/user-management" ? "border-l-4 border-blue-500" : ""
-                  } hover:bg-blue-100`}
+                    activePath === "/dashboard/user-management" ? "border-l-4 border-accent" : ""
+                  } hover:bg-yellow-50`}
                   onClick={() => handleNavigation("/dashboard/user-management")}
                 >
                   <RiUser3Line className="mr-2" />
@@ -60,8 +60,8 @@ const Sidebar: React.FC = () => {
               <li>
                 <div
                   className={`flex items-center w-full p-2 text-gray-700 rounded-lg ${
-                    activePath === "/dashboard/user" ? "border-l-4 border-blue-500" : ""
-                  } hover:bg-blue-100`}
+                    activePath === "/dashboard/user" ? "border-l-4 border-accent" : ""
+                  } hover:bg-blue-50`}
                   onClick={() => handleNavigation("/dashboard/user")}
                 >
                   <RiDashboardLine className="mr-2" />
@@ -71,8 +71,8 @@ const Sidebar: React.FC = () => {
               <li>
                 <div
                   className={`flex items-center w-full p-2 text-gray-700 rounded-lg ${
-                    activePath === "/dashboard/user/produk" ? "border-l-4 border-blue-500" : ""
-                  } hover:bg-blue-100`}
+                    activePath === "/dashboard/user/produk" ? "border-l-4 border-accent" : ""
+                  } hover:bg-blue-50`}
                   onClick={() => handleNavigation("/dashboard/user/produk")}
                 >
                   <RiDeviceLine className="mr-2" />
@@ -81,19 +81,7 @@ const Sidebar: React.FC = () => {
               </li>
             </ul>
           )}
-          
-          <li>
-            <div
-              className="flex items-center w-full p-2 text-gray-700 rounded-lg hover:bg-blue-100"
-              onClick={() => {
-                localStorage.removeItem('role');
-                handleNavigation("/login");
-              }}
-            >
-              <RiLogoutBoxLine className="mr-2" />
-              <span>Logout</span>
-            </div>
-          </li>
+                  
         </ul>
       </nav>
 

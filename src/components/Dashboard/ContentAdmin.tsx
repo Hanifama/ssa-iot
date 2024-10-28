@@ -1,4 +1,4 @@
-"use client"; 
+"use client";
 
 import React, { useState } from "react";
 import { Bar } from "react-chartjs-2";
@@ -75,34 +75,34 @@ const iotDevices = [
 
 const DashboardContent: React.FC = () => {
     const [selectedDevice, setSelectedDevice] = useState<string>("");
-    
+
     const filteredDevices = selectedDevice
         ? iotDevices.filter(device => device.name === selectedDevice)
         : iotDevices;
-    
+
     const labels = selectedDevice
         ? filteredDevices[0].products.map(product => product.name)
         : iotDevices.map(device => device.name);
 
     const productValues = selectedDevice
-        ? filteredDevices[0].products.map(product => product.value) 
+        ? filteredDevices[0].products.map(product => product.value)
         : iotDevices.map(device =>
             device.products.reduce((total, product) => total + product.value, 0)
         );
-    
+
     const data = {
         labels,
         datasets: [
             {
                 label: "Total Produk",
                 data: productValues,
-                backgroundColor: "rgba(54, 162, 235, 0.6)",
-                borderColor: "rgba(54, 162, 235, 1)",
+                backgroundColor: "rgba(255, 215, 0, 0.6)",
+                borderColor: "rgba(255, 215, 0, 1)",      
                 borderWidth: 1,
             },
         ],
     };
-    
+
     const options = {
         responsive: true,
         plugins: {
@@ -117,28 +117,27 @@ const DashboardContent: React.FC = () => {
     };
 
     return (
-        <div className="flex flex-col space-y-6">
-            {/* Judul Dashboard */}
-            <h2 className="text-3xl font-bold">Dashboard Admin</h2>
+        <div className="flex flex-col space-y-6">            
 
             {/* Kartu Statistik */}
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
-                <div className="bg-white p-6 rounded-lg shadow-md flex flex-col justify-between">
-                    <h3 className="text-xl font-semibold">Total Users</h3>
-                    <p className="text-3xl font-bold text-blue-600">1,234</p>
+                <div className="bg-gray-50 border-l-4 border-yellow-500 p-6 rounded-lg shadow-md flex flex-col justify-between">
+                    <h3 className="text-xl font-semibold text-gray-900">Total Users</h3>
+                    <p className="text-3xl font-bold text-amber-600">1,234</p>
                     <span className="text-gray-500">Lorem Ipsum</span>
                 </div>
-                <div className="bg-white p-6 rounded-lg shadow-md flex flex-col justify-between">
-                    <h3 className="text-xl font-semibold">Produk IoT</h3>
-                    <p className="text-3xl font-bold text-green-600">567</p>
+                <div className="bg-gray-50 border-l-4 border-yellow-500 p-6 rounded-lg shadow-md flex flex-col justify-between">
+                    <h3 className="text-xl font-semibold text-gray-900">Produk IoT</h3>
+                    <p className="text-3xl font-bold text-teal-600">567</p>
                     <span className="text-gray-500">Lorem Ipsum</span>
                 </div>
-                <div className="bg-white p-6 rounded-lg shadow-md flex flex-col justify-between">
-                    <h3 className="text-xl font-semibold">Saldo Masuk</h3>
-                    <p className="text-3xl font-bold text-yellow-600">Rp 4 Milliar</p>
+                <div className="bg-gray-50 border-l-4 border-yellow-500 p-6 rounded-lg shadow-md flex flex-col justify-between">
+                    <h3 className="text-xl font-semibold text-gray-900">Saldo Masuk</h3>
+                    <p className="text-3xl font-bold text-indigo-600">Rp 4 Milliar</p>
                     <span className="text-gray-500">Lorem Ipsum</span>
                 </div>
             </div>
+
 
             {/* Grafik */}
             {/* Dropdown Filter */}
@@ -189,7 +188,7 @@ const DashboardContent: React.FC = () => {
                             <td className="border-b py-2">Citra Dewi</td>
                             <td className="border-b py-2">User</td>
                             <td className="border-b py-2">18 Okt 2024</td>
-                        </tr>                        
+                        </tr>
                     </tbody>
                 </table>
             </div>
